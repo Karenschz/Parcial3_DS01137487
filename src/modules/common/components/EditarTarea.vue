@@ -33,7 +33,9 @@ import { ref, watch, defineProps, defineEmits } from 'vue';
 
 interface Props {
   open: boolean;
-  tareaNombre: string;
+  tareaNombre: zapato
+  
+  ;
 }
 
 const props = defineProps<Props>();
